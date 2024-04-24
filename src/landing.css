@@ -1,0 +1,93 @@
+:root {
+    --background1:#FFF8EC;
+    --background2:#FAAF02;
+    --colorfont1:#615C52;
+    --colorfont2:#DFE0DF;
+    --colorfont3:#0B0200;
+    --colorfont4:#C0564B;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background1);
+}
+.home{
+    width: 100%;
+    height: 982px;
+}
+.navbar{
+    width: 100%;
+    font-style: normal;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+.links-nav{
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    width: 70rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.imgLogo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.imgLogo img{
+    width: 270px;
+}
+.titlebrain{
+    font-family: "Pathway Gothic One", sans-serif;
+    color: var(--colorfont4);
+    letter-spacing: .9rem;
+    font-size: 20px;
+}
+.logotitles{
+    font-family: "Pathway Gothic One", sans-serif;
+}
+.logotitles h1{
+    color: var(--background2);
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+}
+.logotitles h3{
+    color: var(--colorfont3);
+    font-size: 70px;
+    margin-top: -23px;
+}
+.medialogos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.medialogos img{
+    width: 40px;
+}
+.logo h6{
+    margin-top: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+}
+.sound1{
+    height: 60px;
+}
+.sound2{
+    height: 70px;
+}
+.spotify-player{
+    margin-top: 20px;
+    /* box-shadow: 12px -6px 14px -2px rgba(97,92,82,0.61); */
+    border-radius: 12px;
+}
