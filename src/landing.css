@@ -27,6 +27,7 @@
     width: 70rem;
     justify-content: space-between;
     align-items: flex-end;
+    color: var(--colorfont1);
 }
 .imgLogo{
     width: 100%;
@@ -72,6 +73,7 @@
 }
 .logo h6{
     margin-top: 10px;
+    color: var(--colorfont1);
 }
 .logo{
     display: flex;
